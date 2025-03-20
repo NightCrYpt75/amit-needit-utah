@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">9bd8885bc3946e10bd425ffdd401312c</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	if(!("u_requested_for_email" in source)){
+    var name = "abc def";
+    target.u_requested_for_email = name.replace(" ", ".") + "@example.com";
+	target.u_when_needed = "today";
+	target.u_what_needed ="mac";
+	target.u_requested_for = "admin";
+	target.u_request_type = "incident";
+	
+  }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 10:54:46</sys_created_on>
+        <sys_id>d4341c5fc3d46e10bd425ffdd4013165</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_d4341c5fc3d46e10bd425ffdd4013165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 11:04:44</sys_updated_on>
+        <when>onStart</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="DELETE">
+        <id>d4341c5fc3d46e10bd425ffdd4013165</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 10:54:45</sys_created_on>
+        <sys_id>c554185fc3d46e10bd425ffdd401319d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 10:54:45</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c3d5a9371be239d452a243f4bd4bcb6b</instance_id>
+        <instance_name>dev222317</instance_name>
+        <name>sys_transform_script_d4341c5fc3d46e10bd425ffdd4013165</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Import Historic NeedIt Data"&gt;9bd8885bc3946e10bd425ffdd401312c&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	if(!("u_requested_for_email" in source)){
+    var name = "abc def";
+    target.u_requested_for_email = name.replace(" ", ".") + "@example.com";
+	target.u_when_needed = "today";
+	target.u_what_needed ="mac";
+	target.u_requested_for = "admin";
+	target.u_request_type = "incident";
+	
+  }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-20 10:54:46&lt;/sys_created_on&gt;&lt;sys_id&gt;d4341c5fc3d46e10bd425ffdd4013165&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;onStart&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_d4341c5fc3d46e10bd425ffdd4013165&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-20 11:04:44&lt;/sys_updated_on&gt;&lt;when&gt;onStart&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d4341c5fc3d46e10bd425ffdd4013165&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-20 10:54:45&lt;/sys_created_on&gt;&lt;sys_id&gt;c554185fc3d46e10bd425ffdd401319d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-20 10:54:45&lt;/sys_updated_on&gt;&lt;table&gt;sys_transform_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-208306608</payload_hash>
+        <record_name>onStart</record_name>
+        <reverted_from/>
+        <source>fc7b8f07c3106e10bd425ffdd40131bf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 11:04:44</sys_created_on>
+        <sys_id>9796dc13c3186e10bd425ffdd401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b33a1c4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 11:04:44</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>1f96dc1313186e10532f031c4662895a</update_guid>
+        <update_guid_history>1f96dc1313186e10532f031c4662895a:-208306608,1554dc5fe6d46e10e7b63f5d97e8696b:1601890088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 11:27:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>368e6293b82643b19586106ab412ebc9</sys_id>
+        <sys_metadata>d4341c5fc3d46e10bd425ffdd4013165</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Import Historic NeedIt Data1">9bd8885bc3946e10bd425ffdd401312c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_d4341c5fc3d46e10bd425ffdd4013165</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_d4341c5fc3d46e10bd425ffdd4013165">9796dc13c3186e10bd425ffdd401315b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 11:27:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
