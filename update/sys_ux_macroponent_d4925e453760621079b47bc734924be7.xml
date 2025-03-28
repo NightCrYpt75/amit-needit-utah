@@ -302,7 +302,51 @@
                                 "elementId": "overdue_needit_score",
                                 "elementLabel": "Single score 1",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "cmiisjjaajjjdaabbwgddbhhviiughhpcciit",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_d4925e453760621079b47bc734924be7",
+                                                    "payload": {
+                                                        "type": "JSON_LITERAL",
+                                                        "value": {
+                                                            "external": null,
+                                                            "fields": {
+                                                                "table": "x_58872_needit_needit"
+                                                            },
+                                                            "multiInstField": null,
+                                                            "navigationOptions": null,
+                                                            "params": null,
+                                                            "passiveNavigation": null,
+                                                            "redirect": null,
+                                                            "route": "simple-list",
+                                                            "targetRoute": "",
+                                                            "title": null
+                                                        }
+                                                    },
+                                                    "sysId": "788b7f9537a8621079b47bc734924b6d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmiisjjaajjjdaabbwhddbhhvqoiidfxok",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -384,7 +428,7 @@
                                                     },
                                                     "filterQuery": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "active=true^NQu_when_needed&lt;javascript:gs.beginningOfToday()"
+                                                        "value": "active=true^u_when_needed&lt;javascript:gs.beginningOfToday()"
                                                     },
                                                     "id": {
                                                         "type": "JSON_LITERAL",
@@ -837,7 +881,89 @@
                                 "elementId": "single_score_1",
                                 "elementLabel": "Pie 1",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "cmiisabweewaaccddeeddbhhveccfygqzee",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "now_vis_extensions.NOW_VIS_WRAPPER#CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_58872_needit.NAV_ITEM_SELECTED_RELAY_d4925e453760621079b47bc734924be7",
+                                                    "payload": {
+                                                        "container": {
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "fields": {
+                                                                "container": {
+                                                                    "table": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "params",
+                                                                                "table"
+                                                                            ]
+                                                                        },
+                                                                        "type": "EVENT_PAYLOAD_BINDING"
+                                                                    }
+                                                                },
+                                                                "type": "MAP_CONTAINER"
+                                                            },
+                                                            "multiInstField": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "params": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "route": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "simple-list"
+                                                            },
+                                                            "targetRoute": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "788b7f9537a8621079b47bc734924b6d"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmiisabweewaaccddffddbhhvgniiiffffees",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -1042,6 +1168,7 @@
                                         "type": "JSON_LITERAL",
                                         "value": [
                                             {
+                                                "disableRanges": false,
                                                 "groupBy": [
                                                     {
                                                         "dataSource": "dGFibGV4XzU4ODcyX25lZWRpdF9uZWVkaXQxNzQzMDQ1NTY0NjQ3",
@@ -1109,13 +1236,9 @@
                                         "container": [
                                             {
                                                 "container": {
-                                                    "aggregateField": {
-                                                        "type": "JSON_LITERAL",
-                                                        "value": "u_requested_for"
-                                                    },
                                                     "aggregateFunction": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "COUNT(DISTINCT"
+                                                        "value": "COUNT"
                                                     },
                                                     "axisId": {
                                                         "type": "JSON_LITERAL",
@@ -1567,7 +1690,44 @@
                                 "elementId": "list___simple_1",
                                 "elementLabel": "List - Simple 1",
                                 "eventMappings": [
-                                    
+                                    {
+                                        "eventMappingId": "cmiischmnzaabbwoddbhhvcaaiddjjccjp",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                                                    "payload": {
+                                                        "script": {
+                                                            "apiVersion": "1.0.0",
+                                                            "controllerElementId": null,
+                                                            "inlineScript": "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.event\n * @param {any} params.imports\n */\nfunction evaluateEvent({\n    api,\n    event\n}) {\n\n    // Get the query value from the payload\n    var payloadQuery = event.payload.query;\n\n    return {\n        items: [{\n            \"content\": {\n                \"type\": \"html\",\n                \"value\": \"&lt;span&gt;&lt;em&gt;NeedIt&lt;/em&gt; records were fetched successfully with query &lt;strong&gt;\" + payloadQuery + \"&lt;/strong&gt;.&lt;/span&gt;\"\n            },\n            \"action\": {\n                \"type\": \"dismiss\"\n            }\n        }]\n    };\n}",
+                                                            "scriptSysId": null,
+                                                            "target": null
+                                                        },
+                                                        "type": "CLIENT_TRANSFORM_SCRIPT"
+                                                    },
+                                                    "sysId": "49fe7d575f983bb3f8eea3fa8d40694c"
+                                                },
+                                                "operation": null,
+                                                "targetId": "cmiischmnzaabbwpddbhhvddcbbvgbgf",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
                                 ],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -1581,7 +1741,7 @@
                                     },
                                     "columns": {
                                         "type": "JSON_LITERAL",
-                                        "value": "number,short_description,sys_created_on"
+                                        "value": "number,short_description,sys_created_on,state,assigned_to"
                                     },
                                     "fixedQuery": {
                                         "type": "JSON_LITERAL",
@@ -1856,7 +2016,7 @@
     
 ]</data>
         <description/>
-        <dispatched_events/>
+        <dispatched_events>788b7f9537a8621079b47bc734924b6d</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1934,14 +2094,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-26 06:35:40</sys_created_on>
         <sys_id>d4925e453760621079b47bc734924be7</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_d4925e453760621079b47bc734924be7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-27 03:36:26</sys_updated_on>
+        <sys_updated_on>2025-03-28 08:53:53</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d4925e453760621079b47bc734924be7"/>
 </record_update>
